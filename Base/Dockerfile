@@ -21,4 +21,4 @@ ENV HOME /root
 WORKDIR /root
 
 # Define default command.
-CMD ["tailf /etc/hosts"]
+CMD ["tailf", "/etc/hosts"]
