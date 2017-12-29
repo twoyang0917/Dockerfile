@@ -14,6 +14,9 @@ RUN \
   python get-pip.py && \
   rm -f get-pip.py
 
+# Set environment variables.
+ENV HOME /root
+
 # Define working directory.
 WORKDIR /root
 
