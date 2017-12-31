@@ -21,4 +21,4 @@ ENV HOME /root
 WORKDIR /root
 
 # Define default command.
-CMD ["tail", "-f", "/dev/null"]
+CMD ["tail", "-f", "/etc/hosts"]

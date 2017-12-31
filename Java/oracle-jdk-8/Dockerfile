@@ -10,4 +10,4 @@ RUN \
 
 ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
 
-CMD ["tail", "-f", "/dev/null"]
+CMD ["tail", "-f", "/etc/hosts"]
