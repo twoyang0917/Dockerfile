@@ -1,4 +1,4 @@
-FROM twoyang0917/ubuntu:latest
+FROM twoyang0917/ubuntu:dev
 
 RUN \
   apt-get update && \
